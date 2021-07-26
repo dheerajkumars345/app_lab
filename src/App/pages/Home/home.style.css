@@ -1,0 +1,61 @@
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url('../../images/layer.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  display: flex;
+  flex: 42%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Main column */
+.main {
+  /* flex: 50%; */
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+h2 {
+  font-size: 3rem;
+  color: rgb(36, 6, 70);
+}
+
+p:nth-child(1){
+  background-color: #edf3fa;
+  border-radius: 100px;  
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+  /* CSS Media query to adjust header */
+  @media only screen and (max-width: 800px) {
+    h2{
+      font-size: 1rem;
+   }
+ }
+
+ .demo_btn{
+  background-color: white; 
+  color: rgb(36, 6, 70); 
+  /* border: 2px solid #4CAF50; */
+ }
